@@ -5,7 +5,7 @@ public class Reverse_String {
 	private static Scanner reader;
 
 	public static String reverseString(String input){
-		String[] array = input.split("(?!^)");
+		String[] array = input.split("(?!^)"); // Splits string into array of characters
 		
 		for(int i = 0; i< input.length()/ 2; i++){
 			String temp = array[i];
